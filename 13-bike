@@ -1,0 +1,17 @@
+public class Bike {
+	int aro;
+	String cor;
+	String modelo;
+	String numeroDeMarchas;
+	String tipoDeFreio;
+	public static void main(String[] args) {
+		Bike bmx = new Bike();
+		bmx.aro = 20;
+		bmx.cor = "Azul";
+		bmx.modelo = "BMX";
+		bmx.numeroDeMarchas = "A bike não possui marchas";
+		bmx.tipoDeFreio = "V-Brake";
+		System.out.println("Aro da bike:" + bmx.aro + "\n" + "Cor da bike:" + bmx.cor + "\n" + "Modelo da bike:" + bmx.modelo + "\n" + "Numero de marchas:" + bmx.numeroDeMarchas + "\n" + "Tipo do freio:" + bmx.tipoDeFreio);
+	}
+
+}

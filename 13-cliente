@@ -1,0 +1,21 @@
+public class Cliente {
+	 String nome;
+	 int idade;
+	 String genero;
+	 int telefone;
+	 String endereco;
+	 int cadastro;
+	
+	public static void main(String[] args) {
+		Cliente Andrey = new Cliente();
+		Andrey.endereco = "Rua X N° Y Setor POO";
+		Andrey.genero = "Masculino";
+		Andrey.cadastro = 1;
+		Andrey.nome = "Andrey Dias";
+		Andrey.telefone = 999999999;
+		Andrey.idade = 19;
+		System.out.println("Cadastro do Cliente:" + Andrey.cadastro + "\n" + "Nome do cliente:" + Andrey.nome + "\n" + "Idade do cliente:" + Andrey.idade + "\n" + "Endereço do cliente:" + Andrey.endereco + "\n" + "Gênero do Cliente:" + Andrey.genero + "\n" + "Telefone do Cliente:" + Andrey.telefone);
+
+	}
+
+}
